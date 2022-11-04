@@ -631,7 +631,7 @@
                 <h5 class="text-secondary text-uppercase mb-4">Get In Touch</h5>
                 <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
                 <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Berlint, Distrik Barat Park Ave No. 128</p>
-                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>Women'sshop@gmail.com</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>womenshop@gmail.com</p>
                 <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+62 888 214 200</p>
             </div>
             <div class="col-lg-8 col-md-12">
