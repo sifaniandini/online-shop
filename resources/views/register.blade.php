@@ -3,21 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
     <div class="container mt-3">
-    <span class ="header"><b><h2>Login</h2></b></span>
+    <span class ="header"><b><h2>Register</h2></b></span>
     </div>
     <div class="container mt-5">
-    <form method="POST" action="{{route('login.post')}}">
+    <form method="POST" action="{{route('register.post')}}">
         @csrf
         <div class="mb-3">
           <label for="email" class="form-label">Email address</label>
           <input type="email" class="form-control" @error('email') is-invalid
           @enderror id="email" name="email" aria-describedby="emailHelp">
           @error('email')
+          <div class="form-text text-danger">{{$message}}</div>
+          @enderror
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" @error('name') is-invalid
+          @enderror id="name" name="name" aria-describedby="nameHelp">
+          @error('name')
           <div class="form-text text-danger">{{$message}}</div>
           @enderror
         </div>

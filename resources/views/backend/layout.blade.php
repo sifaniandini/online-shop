@@ -36,7 +36,7 @@
                 <a class="nav-link disabled">Link</a>
               </li>
             </ul>
-           <a href="{{route('logout',[])}}" class="btn-btn-outline-">Logout</a>
+           <a href="{{route('logout',[])}}" class="btn-btn-outline-success" onclick="return confirm ('Anda Yakin Ingin Keluar ?')">Logout</a>
           </div>
         </div>
       </nav>
